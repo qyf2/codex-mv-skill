@@ -83,10 +83,6 @@ python tests/e2e.py --dest "test-results/new-mv-project"
 FFmpeg 不在 PATH 时可加 `--ffmpeg=绝对路径`，Node 可加 `--node=绝对路径`。
 正式长 MV 的渲染时间取决于场景复杂度、时长、GPU、帧率，先渲染少量帧估算。
 
-## 上传到你自己的 GitHub
-
-见 [完整上传步骤](UPLOAD.zh-CN.md)，提供网页上传、Git 命令和上传后的安装方式。
-上传的是解压后整个仓库的内容，不只是 SKILL.md，也不是只上传 ZIP 文件。
 
 ## 来源与许可
 

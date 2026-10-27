@@ -1,0 +1,19 @@
+{
+  "name": "codex-song-mv-project",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Deterministic hand-painted music videos for Codex, adapted from ClaudeAnimationBase",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "doctor": "node doctor.mjs",
+    "sheet": "node render.mjs --sheet=0.1,1,2,3,4,5 --out=out/sheet.jpg",
+    "video": "node render.mjs --clip --out=out/video.mp4"
+  },
+  "dependencies": {
+    "p5": "^2.3.3",
+    "p5.brush": "^2.2.3",
+    "puppeteer-core": "^25.11.0"
+  }
+}
+

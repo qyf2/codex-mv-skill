@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "frames": 48,
+  "width": 960,
+  "height": 540,
+  "fps": 12,
+  "duration": 4,
+  "audio": "AAC, decoded non-silent",
+  "checks": [
+    "real WebGL2 rendering",
+    "Chinese enhanced lyrics",
+    "out-of-order repeat frame equality",
+    "resumption",
+    "missing frame refusal",
+    "encoder error propagation",
+    "no browser needed for encode",
+    "source/font cache invalidation",
+    "full video/audio decode"
+  ]
+}

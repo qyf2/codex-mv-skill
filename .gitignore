@@ -1,0 +1,14 @@
+node_modules/
+out/
+.npm-cache/
+__pycache__/
+*.pyc
+.venv/
+.agents/
+.env
+.env.*
+!.env.example
+projects/
+test-results/
+.DS_Store
+Thumbs.db

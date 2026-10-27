@@ -1,0 +1,5 @@
+/* Optional offline font: place your licensed font under assets/fonts/, then use:
+@font-face { font-family: 'MVBrush'; src: url('assets/fonts/your-font.woff2'); }
+Set PROJECT.karaokeFont to '"MVBrush", sans-serif' in src/config.js.
+No network fonts or commercial song assets are bundled.
+*/

@@ -1,0 +1,6 @@
+interface:
+  display_name: "歌曲 MV 制作"
+  short_description: "从歌曲与 LRC 到水彩手绘 MV：分镜、节拍、歌词同步、审片和成片导出"
+  default_prompt: "使用 $song-mv，把我提供的歌曲和歌词做成有完整故事、歌词高亮和音轨的手绘 MV，并交付可编辑工程。"
+policy:
+  allow_implicit_invocation: true
